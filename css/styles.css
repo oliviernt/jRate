@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: sans-serif;
+}
+
+code {
+	border: 1px solid #ccc;
+	padding: 5px;	
+}

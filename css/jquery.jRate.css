@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+.jRate {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	height: 15px;
+	width: auto;
+}
+
+.jRate li {
+	display: block;
+	float: left;
+}
+
+.jRate li a {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	background: transparent url( "../img/star.gif" ) no-repeat scroll 0 0;
+	height: 15px;
+	width: 15px;
+}
+
+.jRate li a.active {
+	color: red;
+}
+
+.jRate li a:hover,.jRate li a.active {
+	background-position: 0 -15px;
+}
